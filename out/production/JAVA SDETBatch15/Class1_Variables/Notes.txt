@@ -1,0 +1,62 @@
+1) Why we are here?
+We want to be SDET or QA automation engineers.
+2) What do SDET or QA Automation engineers do?
+They Test software. For example websites like facebook or amazon.
+They make sure that all the features work fine. They make sure
+the look and feel of a website is good.
+3) Why we need Automation to perform testing?
+Yes we can verify these things manually but if the website is big it will take a lot of time.
+That's why we need to automate the testing of these websites. To automate we need computers and a common
+language that we and computer understand.
+4) What is computer language like java and why we need it?
+Just like we need a common language to talk to a person we also need a computer
+language to talk to a computer and that's why we need to learn java. Java is a computer language that we can
+use to talk to a computer.
+What is a project in intellij?
+It's simply a folder where we will be storing our code. It will be help us organize
+the code, and it will be easier for us to find the code later on.
+How to create a new project in intellij?
+1) click on file
+2) click on new
+3) click on project
+4) a new window appears enter the name of the project and click create
+5) If you see a pop-up saying new window or same window click on same window
+How to create new packages(package is also a folder inside src folder)?
+1) Right click on src folder
+2) click on new
+3) click on package
+4) Give name to your package and hit enter
+What is a class and why we need it?
+A class is simply a file that contains java code, and we create them to better organize our code.
+How to create a new class(a file that contains java code)
+1) Right-click on a package.
+2) click new
+3) Java class
+4) enter the name of the class and hit enter.
+Important Rules of Java:
+    1) All types of brackets must be in pairs if we have 10 opening brackets we must have 10 closing brackets
+    as well. These are the brackets that we can use in java () {} []
+    2) All java lines end with semicolon.
+    3) if I want to run a java code inside a class I must have main method.
+
+Shortcuts:
+    1)type main and hit enter to create the main method.
+    2) type sout and hit enter to write System.out.println()
+
+Very Important:
+    1) Always keep an eye on CourseAnnouncement channel.
+    2) Always go through the slides and watch the videos that I will be sharing before every class.
+    3) After the at least spent 1 hour re-doing the things that we learn.
+ // This is main door we can't run java programs without this door
+    public static void main(String[] args) {
+        // This code will print two lines on the consoles
+        // This is a side note so that if someone reads my code they can understand it easily
+        System.out.println("Please don't ask me to repeat it again");
+        System.out.println("Another line");
+        /*
+       I should use this to write multiple
+       lines of code
+         */
+
+    }
+}

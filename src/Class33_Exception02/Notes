@@ -1,0 +1,27 @@
+
+What is Exception?
+   An Exception is unexpected/ unwanted/abnormal situation that occurred at runtime called exception.
+
+What is Exception Handling?
+    in exception handling we should have an alternative source through which we can handle the exception.
+    The object oriented mechanism has provide the following techniques to work with exception.
+
+    1- Try & catch              //Predefine exception, these are block of codes
+    2- throw and throws         //User define Exception, these are keywords
+    3- finally                  //its don't care about exception but it will execute always when we create finally.
+
+1- try Block:
+    in the try block we write the code which may throw an exception.
+catch block:
+    contains the backyup code, the code that we want to execute in case of failure. it can contain
+    code to simplify the error message it can also contain the code which might send a notification or an
+    email to developers or admins in case of failure.
+How it works:
+    We can multiple catch block with one try block. each handling a different error
+    we can also put a last catch block with Exception class so that if something goes wrong and there
+    is no specific catch block to handle it the exception one will handle it.
+
+Finally block:
+    Finally block is always executed no matter what happen in the try block or the catch block.
+    We should put cleanup code inside the finally blocks like closing  a browser closing the
+    database connection etc.

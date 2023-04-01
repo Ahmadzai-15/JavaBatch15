@@ -1,0 +1,58 @@
+
+
+    Collections framework:
+        A collection of classes and interfaces which help us store and manage objects in the form of
+        collections.
+        for example ArrayList linkedList. These Classes make it easier to manage data as they have
+        ready-made methods.That we can just use.
+    Wrapper classes:
+        we can use primitive data types as objects with the help of wrapper classes. We want to do
+         it because primitive data types are not supported by the classes in Collections framework
+         like ArrayList.
+    Boxing:
+        is the process of converting primitive data types to its corresponding wrapper type or object
+         type.
+    AutoBoxing.
+        says just assign a wrapper type to a primitive type variable and the conversion will happen
+        automatically Examples.
+    Integer i = new Integer (10)    => Boxing
+    int one = i;  => Unboxing
+
+    AutoBoxing:
+       It says that we just have to assign a wrapper type to a primitive type of variable and
+       conversion will happen automatically.Character gf = ‘a’;
+        => Autoboxing
+    char ch = gf;   => Auto-unboxing
+
+    ArrayList:
+        ArrayList is  a part of collections framework. we can store single objects inside arrayList.
+         It works very similar how array works but its dynamic in nature which means it can grow and
+         shrinks its size automatically. Unlike arrays we don't need to provide the size upfront.
+          We have built-in methods that we can use to manipulate the objects that we store inside
+          that arrayList.
+    Diamond Operator:
+        Diamond operators are also called angle brackets "<>". They are used to specify the name
+         of the class whose objects we will be storing inside the classes which belong to collections
+         framework or any other class which uses java generics.
+    ArrayList vs LinkedList
+    if in your code most of the time you use get method and you don't add or remove elements from in
+     between then you should always use ArrayList.
+    if most of the time you add or remove elements from in-between and don't use get method then
+    you should use LinkedList.
+
+
+    ArrayList<String> drinks = new ArrayList<>();
+            drinks.add("Vodka");
+            drinks.add("Juice");
+            drinks.add("Beer");  // 2 , water
+            drinks.add("Milk");
+
+            for (int i = 0; i < drinks.size(); i++) {
+                String drink = drinks.get(i);
+                if(drink.contains("a")||drink.contains("e")){
+                    drinks.set(i,"water"); // replacing. The 'I' is index of loop
+                }
+            }
+            System.out.println(drinks);
+
+    Object.set(i,water);   replace the element in arraylist or linkedlist

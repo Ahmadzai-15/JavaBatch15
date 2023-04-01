@@ -1,0 +1,27 @@
+
+
+        Interface:
+        interface is very similar to an abstract class. it is a constract between unrelated classes, we can
+        use it to achive  abstraction . all methods are public by default and abstruct as well.
+
+
+        Please at least revise this for your selenium class.
+
+
+        Methods (Most Important)
+        String Class =
+        Loops
+        Arrays
+        Variable types in Java
+        Access Modifier (Skim)
+        Constructor
+        this (keyword)
+        Inheritance (Cucumber Class)
+        Super (very rare)
+        Overriding
+        Implementing an interface
+        Polymorphism
+        Final Keyword( maybe not )
+        abstraction (important but not all the details)
+        interface (important)
+        Encapsulation(not important for selenium).

@@ -1,0 +1,44 @@
+
+
+    Operators:
+        Operators are different symbols that we can use to perform operations like addition, subtractions we can
+        compare things if two entities are same or not if a number is greater than the other number or not.
+        There are three main types of operators. They are Arithmetic operators, Relational operators and logical
+        operators.
+    Arithmetic operators:
+        We use Arithmetic operators to perform simple math operations. Like additions, subtraction etc.
+        + => Addition
+        - => Subtraction
+        / => Division
+        * => multiplication
+        % => modulus , remainder
+
+    Relational operators.
+        Relational operators are used to compare two quantities or entities. for example if something is bigger than
+        other thing or if two numbers are same or not or if two boolean variables contain same values or not.
+        ==  => used to check if two variables contain the same value or not if same we get true otherwise we get false.
+        !=  => used to check if two variables don't contain the same value. we get a true if they are not same.
+        >   => used to check if one value is greater than other value or not if greater we get a true.
+        <   => opposite of > used to check if the value on the left is smaller than the value on right side we will get a true.
+        >= => if the value on left is greater than the value on right side or if they are same we will get a true.
+        <=  => it opposite of >= and it used to check if something is less than or equal to other thing.
+    Conditional constructs
+    Used to write conditional code. A piece of code that execute based on a condtion if codnition is true that java execute
+    the code otherwise it skips that code.
+    How to write Ifelse conditions:
+        if(condition){
+        any line of code even another if condition
+
+        if(){
+        }
+
+        }
+
+    Important Notes:
+        1) For String we use equals method instead of === sign because it s a non-primitive data type
+        2) We can cmd+opt+l(Mac) ctrl+alt+l(windows) to format our code.
+        3) if we are confused about brackets we can click on opening or closing part to check the other part.
+
+    If else conditions
+        When we have to test the same variable for multiple conditions i should use If else if
+        When we have multiple conditions and these conditions are dependent on each other Nested if conditions

@@ -1,0 +1,24 @@
+
+
+        Method-overriding:
+            Method-overriding happens when same method with different implementation exists in parent and child
+            class.
+        Why should we override a method:
+            1)Flexibility.
+            when we inherit from a class and if we don't like some methods we can modify them.
+        Rules:
+            1) private methods and constructor can't b overridden because they don't participate in inheritance.
+            2) If we want to override something we must recreate that exact method inside the child class and can
+            have a different implementations only access modifier can be different. it can have more visibility then
+            the method inside the parent class.
+        Note:
+            1) Right click in editor inside your class and click on generate-> select the fields that you want
+            in your constructor and click on done.
+            2) if we press ctrl+o we get an option to override the available methods.
+
+
+                         ******FINAL KEYWORD******
+
+        Final Keyword when used with a variable The value will not be changed.
+        when used with a method no one can override that method
+        when used with a class no class can inherit from it.
